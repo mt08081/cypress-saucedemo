@@ -1,0 +1,21 @@
+{
+  "name": "cypress-saucedemo",
+  "version": "1.0.0",
+  "description": "Cypress automation project for SauceDemo UI flows.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "npm run cypress:run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "saucedemo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
